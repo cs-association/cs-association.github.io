@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drishti-cup/static/css/main.55cb7889.css",
+    "main.css": "/drishti-cup/static/css/main.bce516c7.css",
     "main.js": "/drishti-cup/static/js/main.8ed309e5.js",
     "static/media/bg.svg": "/drishti-cup/static/media/bg.9a02150d9f44f1e5a8885cfe331c03d7.svg",
     "static/media/Brinnan Regular.otf": "/drishti-cup/static/media/Brinnan Regular.397e5a5354cde1dd9b0a.otf",
@@ -8,11 +8,11 @@
     "static/media/Friza-Bold.otf": "/drishti-cup/static/media/Friza-Bold.e056536719babd995470.otf",
     "static/media/cs.svg": "/drishti-cup/static/media/cs.b73f7ee3751f8c31375cbb8fc8cea9a6.svg",
     "index.html": "/drishti-cup/index.html",
-    "main.55cb7889.css.map": "/drishti-cup/static/css/main.55cb7889.css.map",
+    "main.bce516c7.css.map": "/drishti-cup/static/css/main.bce516c7.css.map",
     "main.8ed309e5.js.map": "/drishti-cup/static/js/main.8ed309e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.55cb7889.css",
+    "static/css/main.bce516c7.css",
     "static/js/main.8ed309e5.js"
   ]
 }
