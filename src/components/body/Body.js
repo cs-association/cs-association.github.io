@@ -13,8 +13,14 @@ const Body = () => {
       </div>
 
       <div className="cards">
-        <span>GAMES</span>
+      <span className="games-title">GAMES</span>
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        
       </div>
     </div>
   );
