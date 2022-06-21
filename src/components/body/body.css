@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Friza";
+  src: url("../../font/Friza-Bold.otf") format("opentype");
+}
+
+.body {
+  background: url("../../images/bg.svg"),
+    linear-gradient(89.91deg, #7408c8 11.96%, #ae02ca 92.5%);
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 100px 40px 100px;
+}
+
+.header img {
+  width: 56px;
+  height: 56px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px !important;
+
+  padding: 40px;
+  gap: 64px;
+
+  /* max-width: 1141px; */
+  /* height: 1051px; */
+}
+
+.cards span {
+  width: 130px;
+  height: 27px;
+  font-family: "Friza";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 27px;
+  color: #fff;
+
+  padding-bottom: 100px;
+}
