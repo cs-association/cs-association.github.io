@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/drishti-cup/static/css/main.aaf4f45b.css",
+    "main.js": "/drishti-cup/static/js/main.bdbe6c3a.js",
+    "static/media/bg.svg": "/drishti-cup/static/media/bg.9a02150d9f44f1e5a8885cfe331c03d7.svg",
+    "static/media/Brinnan Regular.otf": "/drishti-cup/static/media/Brinnan Regular.397e5a5354cde1dd9b0a.otf",
+    "static/media/drishti-logo.svg": "/drishti-cup/static/media/drishti-logo.e01281e721ccdebeaca4873c0c1b174b.svg",
+    "static/media/Friza-Bold.otf": "/drishti-cup/static/media/Friza-Bold.e056536719babd995470.otf",
+    "static/media/cs.svg": "/drishti-cup/static/media/cs.b73f7ee3751f8c31375cbb8fc8cea9a6.svg",
+    "index.html": "/drishti-cup/index.html",
+    "main.aaf4f45b.css.map": "/drishti-cup/static/css/main.aaf4f45b.css.map",
+    "main.bdbe6c3a.js.map": "/drishti-cup/static/js/main.bdbe6c3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaf4f45b.css",
+    "static/js/main.bdbe6c3a.js"
+  ]
+}
