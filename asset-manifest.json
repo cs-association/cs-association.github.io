@@ -1,18 +1,33 @@
 {
   "files": {
-    "main.css": "/drishti-cup/static/css/main.bce516c7.css",
-    "main.js": "/drishti-cup/static/js/main.8ed309e5.js",
+    "main.css": "/drishti-cup/static/css/main.c8c4418e.css",
+    "main.js": "/drishti-cup/static/js/main.9d0ec8a7.js",
     "static/media/bg.svg": "/drishti-cup/static/media/bg.9a02150d9f44f1e5a8885cfe331c03d7.svg",
     "static/media/Brinnan Regular.otf": "/drishti-cup/static/media/Brinnan Regular.397e5a5354cde1dd9b0a.otf",
     "static/media/drishti-logo.svg": "/drishti-cup/static/media/drishti-logo.e01281e721ccdebeaca4873c0c1b174b.svg",
     "static/media/Friza-Bold.otf": "/drishti-cup/static/media/Friza-Bold.e056536719babd995470.otf",
+    "static/media/revicons.eot": "/drishti-cup/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/drishti-cup/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/cs.svg": "/drishti-cup/static/media/cs.b73f7ee3751f8c31375cbb8fc8cea9a6.svg",
+    "static/media/revicons.woff": "/drishti-cup/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/Instagram_active.svg": "/drishti-cup/static/media/Instagram_active.8e9cbfb59f512129d7cede592e958a1d.svg",
+    "static/media/Instagram.svg": "/drishti-cup/static/media/Instagram.9385f2adc3260605a9090f56217b2838.svg",
     "index.html": "/drishti-cup/index.html",
-    "main.bce516c7.css.map": "/drishti-cup/static/css/main.bce516c7.css.map",
-    "main.8ed309e5.js.map": "/drishti-cup/static/js/main.8ed309e5.js.map"
+    "static/media/Twitter_active.svg": "/drishti-cup/static/media/Twitter_active.0bee4e03575289beba46428b2fba9027.svg",
+    "static/media/Youtube_active.svg": "/drishti-cup/static/media/Youtube_active.d824c3a8ec1048f102012c9c6ec84716.svg",
+    "static/media/Twitter.svg": "/drishti-cup/static/media/Twitter.725caa9ccf9a732eba8c33dacc437a4b.svg",
+    "static/media/Youtube.svg": "/drishti-cup/static/media/Youtube.30c4311ecba097316c9ced62e2a0f2a6.svg",
+    "static/media/LinkedIn_active.svg": "/drishti-cup/static/media/LinkedIn_active.4473c4ba4084993f440257c6b89d22fd.svg",
+    "static/media/Facebook_active.svg": "/drishti-cup/static/media/Facebook_active.2afe5b76cd55b270fdbaf54e3f5cabc5.svg",
+    "static/media/LinkedIn.svg": "/drishti-cup/static/media/LinkedIn.0a6eacc0f2d3b3a378aaac726384c8dd.svg",
+    "static/media/arrow_left.svg": "/drishti-cup/static/media/arrow_left.fd51f72044e0d26879348be39eb40fbd.svg",
+    "static/media/Facebook.svg": "/drishti-cup/static/media/Facebook.41b102f336116762e0cf2ac8111286d5.svg",
+    "static/media/arrow_right.svg": "/drishti-cup/static/media/arrow_right.94e31e0aa3bcdcf6b4b451f30dfbc9ba.svg",
+    "main.c8c4418e.css.map": "/drishti-cup/static/css/main.c8c4418e.css.map",
+    "main.9d0ec8a7.js.map": "/drishti-cup/static/js/main.9d0ec8a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bce516c7.css",
-    "static/js/main.8ed309e5.js"
+    "static/css/main.c8c4418e.css",
+    "static/js/main.9d0ec8a7.js"
   ]
 }
