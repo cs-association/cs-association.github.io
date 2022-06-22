@@ -1,6 +1,9 @@
 import React from "react";
 import 'react-multi-carousel/lib/styles.css';
 import "./slider.css";
+// import { arrow_left } from "../../icons/arrow_left.svg";
+import { arrow_right } from "../../icons/arrow_right.svg";
+import { ReactComponent as arrow_left } from '../../icons/arrow_left.svg';
 
 const Card = (props) => (
   <div className="card">
@@ -43,6 +46,10 @@ const Slider = () => {
         </h1> */}
         
         <CardContainer cards={ cardsData } />
+        <div className="arrows">
+          <img src={ arrow_left } alt="left arrow" />
+          <img src={ arrow_right } alt="right arrow" />
+        </div>
       </div>
       );
 };

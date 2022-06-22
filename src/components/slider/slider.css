@@ -50,6 +50,12 @@
   .card-content {
     padding: 1rem;
   }
+
+  .arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
   
   @media screen and (max-width: 625px) {
     .container {
