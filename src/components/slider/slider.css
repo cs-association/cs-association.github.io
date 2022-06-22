@@ -1,72 +1,106 @@
-.container {
-    width: 100%;
-    margin: auto;
-    background-color: #000;
+.poster-container {
+  width: 100%;
+  margin: auto;
+  background-color: #000;
+  align-items: center;
+}
+
+.container h1 {
+  color: #fff;
+}
+
+.poster-cards-container {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  padding: 1rem;
+  box-shadow: 0 0 1rem #000 inset;
+  overflow-x: auto;
+  position: relative;
+  overflow: auto;
+
+}
+
+.poster-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.poster-card {
+  flex: 1 0 250px;
+  box-shadow: 0 1px 1rem -4px #000;
+  background: rgb(0, 0, 0);
+  margin: 1rem;
+  overflow: hidden;
+
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.poster-card img {
+  width: 327px;
+  height: 327px;
+  object-fit: center;
+  clip-path: polygon(58% 0, 99% 23%, 100% 100%, 0 100%, 0 0);
+}
+
+.poster-card:hover {
+  box-shadow: 0 4px 1rem -4px #000;
+  transform: translateY(-3px);
+}
+
+.poster-card-content {
+  padding: 1rem;
+}
+
+.arrows {
+  display: grid;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fff;
+  /* font-size: 0.5rem; */
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+.arrow-container {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 16px;
+}
+
+.arrow-set {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+}
+
+
+.arrow-left {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.arrow-right {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+@media screen and (max-width: 625px) {
+  .poster-container {
+    width: 100%
   }
 
-  .container h1 {
-    color: #fff;
-  }
-  
-  .cards-container {
-    display: flex;
-    
-    color: rgb(0, 0, 0);
-    background: rgb(0, 0, 0);
-    padding: 1rem;
-    box-shadow: 0 0 1rem #000 inset;
-    overflow-x: auto;
-    position: relative;
-    overflow: auto;
-    
+  .poster-cards-container {
+    padding: .5rem;
   }
 
-  .cards-container::-webkit-scrollbar {
-    display: none;
+  .poster-card {
+    margin: .5rem;
   }
-  
-  .card {
-    flex: 1 0 250px;
-    box-shadow: 0 1px 1rem -4px #000;
-    background: rgb(0, 0, 0);
-    margin: 1rem;
-    overflow: hidden;
-    
-    cursor: pointer;
-    transition: all 250ms ease-in-out;
-  }
-  
-  .card img {
-    width: 327px;
-    height: 327px;
-    object-fit: center;
-  }
-
-  .card:hover {
-    box-shadow: 0 4px 1rem -4px #000;
-    transform: translateY(-3px);
-  }
-
-  .card-content {
-    padding: 1rem;
-  }
-
-  .arrows {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  @media screen and (max-width: 625px) {
-    .container {
-      width: 100%
-    }
-    
-    .cards-container {
-      padding: .5rem;
-    }
-    
-    .card {
-      margin: .5rem;
-    }
-  }
+}
