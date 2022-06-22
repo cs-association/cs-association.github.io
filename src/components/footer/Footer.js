@@ -1,4 +1,5 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 import "./footer.css";
 // import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 import Facebook from '../../icons/Facebook.svg';
@@ -9,8 +10,7 @@ import Instagram from '../../icons/Instagram.svg';
 import Instagram_active from '../../icons/Instagram_active.svg';
 import LinkedIn from '../../icons/LinkedIn.svg';
 import LinkedIn_active from '../../icons/LinkedIn_active.svg';
-import Twitter from '../../icons/Twitter.svg';
-import Twitter_active from '../../icons/Twitter_active.svg';
+import Map from '../../images/Map.png';
 
 class Hover extends React.Component {
   constructor() {
@@ -43,87 +43,55 @@ const Footer = () => {
   return (
     <>
       <div className="footer" style={{ background: "#6906B7" }}>
-        <div className="footer-content">
-          <div className="footer-content-main">
-            <h5>Contents</h5>
-            <li>
-              <h6>Contact Us</h6>
-              <h7>+91 1234567890</h7><br />
-              <h7>+91 1234567890</h7>
-            </li>
-            <li>
-              <h6>Sponsors</h6>
-              <h7>GTech &mu;Learn</h7>
-            </li>
-          </div>
-          <h6 className="tag">Follow for more updates</h6>
-          <div className="social-media">
-            <li>
-              {/* <a href="https://www.facebook.com/">
-              <FaFacebook className="social-icons"/>
-            </a> */}
 
-              <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
-                <a href="https://www.facebook.com/">
-                  {footer.state.isHover
-                    ? <img src={Facebook_active} alt="facebook" className="social-icons" />
-                    : <img src={Facebook} alt="facebook" className="social-icons" />
-                  }
-                </a>
-              </div>
-            </li>
-            <li>
-              {/* <a href="https://www.instagram.com/">
-              <FaInstagram className="social-icons" />
-            </a> */}
-              <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
-                <a href="https://www.instagram.com/">
-                  {footer.state.isHover
-                    ? <img src={Instagram_active} alt="Instagram" className="social-icons" />
-                    : <img src={Instagram} alt="Instagram" className="social-icons" />
-                  }
-                </a>
-              </div>
-            </li>
-            <li>
-              {/* <a href="https://www.linkedin.com/">
-                <FaLinkedinIn className="social-icons" />
-              </a> */}
-              <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
-                <a href="https://www.linkedin.com/">
-                  {footer.state.isHover
-                    ? <img src={LinkedIn_active} alt="LinkedIn" className="social-icons" />
-                    : <img src={LinkedIn} alt="LinkedIn" className="social-icons" />
-                  }
-                </a>
-              </div>
-            </li>
-            <li>
-              {/* <a href="https://www.twitter.com/">
-                <FaTwitter className="social-icons" />
-              </a> */}
-              <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
-                <a href="https://www.twitter.com/">
-                  {footer.state.isHover
-                    ? <img src={Twitter_active} alt="Twitter" className="social-icons" />
-                    : <img src={Twitter} alt="Twitter" className="social-icons" />
-                  }
-                </a>
-              </div>
-            </li>
-            <li>
-              {/* <a href="https://www.youtube.com/">
-                <FaYoutube className="social-icons" />
-              </a> */}
-              <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
-                <a href="https://www.youtube.com/">
-                  {footer.state.isHover
-                    ? <img src={Youtube_active} alt="Youtube" className="social-icons" />
-                    : <img src={Youtube} alt="Youtube" className="social-icons" />
-                  }
-                </a>
-              </div>
-            </li>
+        <div className="footer-content">
+
+          <div className="footer-content-main">
+            <div className="contact-us">
+              <h7 className="contact-us-title">Contact Us :</h7>
+              <li className="contacts">Nadeem +91 1234567890</li>
+              <li className="contacts">Anjali +91 1234567890</li>
+            </div>
+            <div className="map-wrapper">
+              <a href="https://www.mapsofindia.com/images2/india-map.jpg" target='_blank' rel="noreferrer" className="map-link">
+                <img src={Map} alt="Map" className="map" />
+              </a>
+            </div>
+          </div>
+
+          <div className="footer-content-secondary">
+            <h6 className="tag">Follow for more updates</h6>
+
+            <div className="social-media">
+              <li>
+                <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
+                  <a href="https://www.facebook.com/drishticet/" target='_blank' rel="noreferrer">
+                  <img src={Facebook} onMouseLeave={e=>(e.currentTarget.src=Facebook)} onMouseOver={e=>(e.currentTarget.src=Facebook_active)} alt="Facebook" className="social-icons" />
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
+                  <a href="https://www.instagram.com/drishticet/" target='_blank' rel="noreferrer">
+                  <img src={Instagram} onMouseLeave={e=>(e.currentTarget.src=Instagram)} onMouseOver={e=>(e.currentTarget.src=Instagram_active)} alt="Instagram" className="social-icons" />
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
+                  <a href="https://www.linkedin.com/company/drishticet/" target='_blank' rel="noreferrer">
+                  <img src={LinkedIn} onMouseLeave={e=>(e.currentTarget.src=LinkedIn)} onMouseOver={e=>(e.currentTarget.src=LinkedIn_active)} alt="LinkedIn" className="social-icons" />
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="icon" onMouseEnter={footer.onMouseEnterHandler} onMouseLeave={footer.onMouseLeaveHandler}>
+                  <a href="https://www.youtube.com/drishticet" target='_blank' rel="noreferrer">
+                  <img src={Youtube} onMouseLeave={e=>(e.currentTarget.src=Youtube)} onMouseOver={e=>(e.currentTarget.src=Youtube_active)} alt="Youtube" className="social-icons" />
+                  </a>
+                </div>
+              </li>
+            </div>
           </div>
         </div>
       </div>

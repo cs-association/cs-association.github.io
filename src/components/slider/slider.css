@@ -85,10 +85,14 @@
 
 .arrow-left {
   grid-area: 1 / 1 / 2 / 2;
+  transform: translateX(10px);
+  cursor: pointer;
 }
 
 .arrow-right {
   grid-area: 1 / 2 / 2 / 3;
+  transform: translateX(-10px);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 625px) {
