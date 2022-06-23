@@ -3,6 +3,7 @@
   margin: auto;
   background-color: #000;
   align-items: center;
+  overflow: hidden;
 }
 
 .container h1 {

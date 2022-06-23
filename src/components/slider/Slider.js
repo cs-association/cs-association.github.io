@@ -3,6 +3,9 @@ import "./slider.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import casino_room from '../../images/casino_room.jpeg';
+import cascade_coding from '../../images/cascade_coding.jpeg'
+import white from '../../images/white.png'
 // import arrow_left from "../../icons/arrow_left.svg";
 // import arrow_right from "../../icons/arrow_right.svg";
 
@@ -13,7 +16,7 @@ export default class SimpleSlider extends Component {
       dots: false,
       infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 1,
+      slidesToScroll: 3,
       autoplay: true,
       speed: 3500,
       autoplaySpeed: 800,
@@ -73,28 +76,28 @@ export default class SimpleSlider extends Component {
       <div className="poster-container">
         <Slider {...settings}>
           <div>
-            <Card imgUrl='https://wallpaperset.com/w/full/0/6/0/471702.jpg'/>
+            <Card imgUrl={casino_room}/>
             </div>
           <div>
-            <Card imgUrl='https://wallpaperset.com/w/full/0/6/0/471702.jpg'/>
+            <Card imgUrl={cascade_coding}/>
             </div>
           <div>
-            <Card imgUrl='https://wallpaperset.com/w/full/0/6/0/471702.jpg'/>
+            <Card imgUrl={white}/>
             </div>
           <div>
-            <Card imgUrl='https://wallpaperset.com/w/full/0/6/0/471702.jpg'/>
+            <Card imgUrl={white}/>
             </div>
           <div>
-            <Card imgUrl='https://wallpaperset.com/w/full/0/6/0/471702.jpg'/>
+            <Card imgUrl={white}/>
           </div>
           <div>
-            <Card imgUrl='https://wallpaperset.com/w/full/0/6/0/471702.jpg'/>
+            <Card imgUrl={white}/>
           </div>
           <div>
-            <Card imgUrl='https://wallpaperset.com/w/full/0/6/0/471702.jpg'/>
+            <Card imgUrl={white}/>
           </div>
           <div>
-            <Card imgUrl='https://wallpaperset.com/w/full/0/6/0/471702.jpg'/>
+            <Card imgUrl={white}/>
           </div>
           {/* <div className="arrow-container">
             <div className="arrow-set">
