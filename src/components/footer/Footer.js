@@ -53,7 +53,7 @@ const Footer = () => {
               <li className="contacts">Anjali +91 1234567890</li>
             </div>
             <div className="map-wrapper">
-              <a href="https://www.mapsofindia.com/images2/india-map.jpg" target='_blank' rel="noreferrer" className="map-link">
+              <a href="https://images.shiksha.com/mediadata/images/listingGoogle/listingLocationlive54272.jpg" target='_blank' rel="noreferrer" className="map-link">
                 <img src={Map} alt="Map" className="map" />
               </a>
             </div>

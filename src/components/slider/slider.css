@@ -12,9 +12,10 @@
 .poster-cards-container {
   display: flex;
   align-items: center;
+  justify-items: center;
   color: rgb(0, 0, 0);
   background: rgb(0, 0, 0);
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 0 0 1rem #000 inset;
   overflow-x: auto;
   position: relative;
@@ -27,12 +28,17 @@
 }
 
 .poster-card {
+  display: flex;
+  align-items: center;
+  justify-content:center;
   flex: 1 0 250px;
   box-shadow: 0 1px 1rem -4px #000;
   background: rgb(0, 0, 0);
-  margin: 1rem;
+  margin: 0.5rem;
+  margin-top: 35px;
+  margin-bottom:35px;
   overflow: hidden;
-
+  /* padding-left: 2rem; */
   cursor: pointer;
   transition: all 250ms ease-in-out;
 }
@@ -40,8 +46,8 @@
 .poster-card img {
   width: 327px;
   height: 327px;
-  object-fit: center;
-  clip-path: polygon(58% 0, 99% 23%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 19%, 100% 100%, 0 100%, 0 0, 70% 0);
+  
 }
 
 .poster-card:hover {
@@ -95,7 +101,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 525px) {
   .poster-container {
     width: 100%
   }
