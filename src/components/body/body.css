@@ -19,9 +19,30 @@
   margin: auto;
 }
 
-.header img {
+.header .img-drishti {
   width: 56px;
   height: 56px;
+}
+
+.header span {
+  width: 56px;
+  font-size: 10px;
+  color: #fff;
+  font-family: "Friza";
+  position: absolute;
+  top: 98px;
+}
+
+.sponsors {
+  padding: 0px 24px;
+  width: 400px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.img-sponsor {
+  width: 96px;
+  height: auto;
 }
 
 .cards {
@@ -64,9 +85,15 @@
     padding: 24px;
   }
 
-  .header img {
+  .header .img-drishti {
     width: 40px;
     height: 40px;
+  }
+
+  .header span {
+    width: 40px;
+    font-size: 8px;
+    top: 66px;
   }
 
   .cards {
@@ -76,6 +103,18 @@
 
   .cards > span {
     padding: 0;
+  }
+
+  .sponsors {
+    padding: 0px 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .img-sponsor {
+    width: 60px;
+    height: auto;
   }
 }
 
