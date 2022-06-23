@@ -6,22 +6,48 @@ import "slick-carousel/slick/slick-theme.css";
 import casino_room from '../../images/casino_room.jpeg';
 import cascade_coding from '../../images/cascade_coding.jpeg'
 import white from '../../images/white.png'
-// import arrow_left from "../../icons/arrow_left.svg";
-// import arrow_right from "../../icons/arrow_right.svg";
+import arrow_left from "../../icons/arrow_left.svg";
+import arrow_right from "../../icons/arrow_right.svg";
 
 
 export default class SimpleSlider extends Component {
+
+  constructor(props) {
+    super(props);
+    this.next = this.next.bind(this);
+    this.previous = this.previous.bind(this);
+  }
+  next() {
+    this.slider.slickNext();
+  }
+  previous() {
+    this.slider.slickPrev();
+  }
+
+  state = { isOpen: false };
+
+  handleShowDialog = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+    console.log("cliked");
+  };
+  
   render() {
     const settings = {
       dots: false,
       infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 3,
-      autoplay: true,
-      speed: 3500,
-      autoplaySpeed: 800,
+      slidesToScroll: 1,
+      // autoplay: true,
+      // speed: 3500,
+      // autoplaySpeed: 2000,
       cssEase: "linear",
       pauseOnHover: true,
+      swipeToSlide: true,
+      afterChange: function(index) {
+        console.log(
+          `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+        );
+      },
        responsive: [
         {
           breakpoint: 525,
@@ -46,6 +72,26 @@ export default class SimpleSlider extends Component {
       <div className="poster-card">
         <img src={props.imgUrl}
           alt={props.alt || 'Image'} />
+
+          {/* <img
+      src={props.imgUrl}
+          onClick={this.handleShowDialog}
+          alt={props.alt || 'Image'}
+        />
+        {this.state.isOpen && (
+          <dialog
+            className="dialog"
+            
+            open
+            onClick={this.handleShowDialog}
+          >
+            <img
+              className="image"
+              src={props.imgUrl}
+              onClick={this.handleShowDialog}
+              alt="err"
+            />
+          </dialog>)} */}
       </div>
     );
 
@@ -74,42 +120,43 @@ export default class SimpleSlider extends Component {
     ]
     return (
       <div className="poster-container">
-        <Slider {...settings}>
-          <div>
+        <Slider ref={c => (this.slider = c)} {...settings}>
+          <div key={1}>
             <Card imgUrl={casino_room}/>
             </div>
-          <div>
+          <div key={2}>
             <Card imgUrl={cascade_coding}/>
             </div>
-          <div>
+          <div key={3}>
             <Card imgUrl={white}/>
             </div>
-          <div>
+          <div key={4}>
             <Card imgUrl={white}/>
             </div>
-          <div>
+          <div key={5}>
             <Card imgUrl={white}/>
           </div>
-          <div>
+          <div key={6}>
             <Card imgUrl={white}/>
           </div>
-          <div>
+          <div key={7}>
             <Card imgUrl={white}/>
           </div>
-          <div>
+          <div key={8}>
             <Card imgUrl={white}/>
           </div>
-          {/* <div className="arrow-container">
-            <div className="arrow-set">
-              <div className="arrow-left">
-                <img src={arrow_left} alt="arrow_left" />
-              </div>
-              <div className="arrow-right">
-                <img src={arrow_right} alt="arrow_right" />
-              </div>
-            </div>
-          </div> */}
+          
         </Slider>
+        <div className="arrow-container">
+            <div className="arrow-set">
+              <div className="button" onClick={this.previous}>
+                <img src={arrow_left} alt="arrow_left" className="button" onClick={this.previous}/>
+              </div>
+              <div className="button" onClick={this.next}>
+                <img src={arrow_right} alt="arrow_right" className="button" onClick={this.next}/>
+              </div>
+            </div>
+          </div>
       </div>
     );
   }
