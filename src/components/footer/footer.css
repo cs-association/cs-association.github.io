@@ -1,5 +1,5 @@
 .footer {
-    height: 60%;
+    height: auto;
     width: 100%;
     /* justify-content: space-around;
     align-items: center */
@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 1.8rem;
+    padding-bottom: 1.2rem;
 }
 
 .tag {
@@ -50,8 +51,8 @@
 }
 
 .map {
-    height: 256px;
-    width: 170px;
+    height: auto;
+    width: 330px;
     clip-path: polygon(58% 0, 99% 23%, 100% 100%, 0 100%, 0 0);
 }
 
@@ -111,8 +112,8 @@
     }
 
     .map {
-        height: 256px;
-        width: 170px;
+        height: auto;
+        width: 250px;
         clip-path: polygon(58% 0, 99% 23%, 100% 100%, 0 100%, 0 0);
         margin-top: 30px;
     }

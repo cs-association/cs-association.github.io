@@ -48,9 +48,11 @@ const Footer = () => {
 
           <div className="footer-content-main">
             <div className="contact-us">
+            <h7 className="contact-us-title">Conveners :</h7>
+              <li className="contacts">&emsp;Aswin Jayaji</li>
+              <li className="contacts">&emsp;Anjali George</li><br/>
               <h7 className="contact-us-title">Contact Us :</h7>
-              <li className="contacts">Nadeem +91 1234567890</li>
-              <li className="contacts">Anjali +91 1234567890</li>
+              <li className="contacts">&emsp;Nadeem&ensp; +91&nbsp; 9895418183</li>
             </div>
             <div className="map-wrapper">
               <a href="https://images.shiksha.com/mediadata/images/listingGoogle/listingLocationlive54272.jpg" target='_blank' rel="noreferrer" className="map-link">
