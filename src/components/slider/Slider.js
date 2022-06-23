@@ -5,9 +5,21 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import casino_room from '../../images/casino_room.jpeg';
 import cascade_coding from '../../images/cascade_coding.jpeg'
+import blind_coding from '../../images/blind_coding.jpeg'
+import bug_smash from '../../images/bug_smash.jpeg'
+import codejam from '../../images/codejam.jpeg'
+import guess_the_word_combined from '../../images/guess_the_word_combined.jpeg'
+import make_a_reel from '../../images/make_a_reel.jpeg'
+import tower_of_hanoi from '../../images/tower_of_hanoi.jpeg'
+import typing_ninja from '../../images/typing_ninja.jpeg'
+import web_designing from '../../images/web_designing.jpeg'
+import whats_in_the_box from '../../images/whats_in_the_box.jpeg'
 import white from '../../images/white.png'
 import arrow_left from "../../icons/arrow_left.svg";
 import arrow_right from "../../icons/arrow_right.svg";
+import gowri_ram from "../../images/gowri_ram.png";
+import space_robotics from "../../images/space_robotics.png";
+import low_code from "../../images/low_code.png";
 
 
 export default class SimpleSlider extends Component {
@@ -122,28 +134,28 @@ export default class SimpleSlider extends Component {
       <div className="poster-container">
         <Slider ref={c => (this.slider = c)} {...settings}>
           <div key={1}>
-            <Card imgUrl={casino_room}/>
+            <Card imgUrl={guess_the_word_combined}/>
             </div>
           <div key={2}>
-            <Card imgUrl={cascade_coding}/>
+            <Card imgUrl={gowri_ram}/>
             </div>
           <div key={3}>
-            <Card imgUrl={white}/>
+            <Card imgUrl={tower_of_hanoi}/>
             </div>
           <div key={4}>
-            <Card imgUrl={white}/>
+            <Card imgUrl={low_code}/>
             </div>
           <div key={5}>
-            <Card imgUrl={white}/>
+            <Card imgUrl={make_a_reel}/>
           </div>
           <div key={6}>
-            <Card imgUrl={white}/>
+            <Card imgUrl={whats_in_the_box}/>
           </div>
           <div key={7}>
-            <Card imgUrl={white}/>
+            <Card imgUrl={space_robotics}/>
           </div>
           <div key={8}>
-            <Card imgUrl={white}/>
+            <Card imgUrl={casino_room}/>
           </div>
           
         </Slider>
