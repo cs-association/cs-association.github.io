@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/drishti-cup/static/css/main.155c8136.css",
-    "main.js": "/drishti-cup/static/js/main.2e4ca114.js",
+    "main.css": "/drishti-cup/static/css/main.805d61c1.css",
+    "main.js": "/drishti-cup/static/js/main.63942b67.js",
     "static/media/bg.svg": "/drishti-cup/static/media/bg.9a02150d9f44f1e5a8885cfe331c03d7.svg",
+    "static/media/litmus.svg": "/drishti-cup/static/media/litmus.b721b1dc181500d38523b20ee99f5707.svg",
     "static/media/Map.png": "/drishti-cup/static/media/Map.92ba77be24fff68a7ff0.png",
     "static/media/Brinnan Regular.otf": "/drishti-cup/static/media/Brinnan Regular.397e5a5354cde1dd9b0a.otf",
+    "static/media/edgradi.svg": "/drishti-cup/static/media/edgradi.39fb0541f5100e449c3b5d435159b685.svg",
     "static/media/drishti-logo.svg": "/drishti-cup/static/media/drishti-logo.e01281e721ccdebeaca4873c0c1b174b.svg",
+    "static/media/entri.svg": "/drishti-cup/static/media/entri.f6515d88cd5e5c044703c6da17954681.svg",
     "static/media/Friza-Bold.otf": "/drishti-cup/static/media/Friza-Bold.e056536719babd995470.otf",
     "static/media/cs.svg": "/drishti-cup/static/media/cs.b73f7ee3751f8c31375cbb8fc8cea9a6.svg",
     "static/media/Instagram_active.svg": "/drishti-cup/static/media/Instagram_active.8e9cbfb59f512129d7cede592e958a1d.svg",
@@ -23,11 +26,11 @@
     "static/media/arrow_left.svg": "/drishti-cup/static/media/arrow_left.fd51f72044e0d26879348be39eb40fbd.svg",
     "static/media/Facebook.svg": "/drishti-cup/static/media/Facebook.41b102f336116762e0cf2ac8111286d5.svg",
     "static/media/arrow_right.svg": "/drishti-cup/static/media/arrow_right.94e31e0aa3bcdcf6b4b451f30dfbc9ba.svg",
-    "main.155c8136.css.map": "/drishti-cup/static/css/main.155c8136.css.map",
-    "main.2e4ca114.js.map": "/drishti-cup/static/js/main.2e4ca114.js.map"
+    "main.805d61c1.css.map": "/drishti-cup/static/css/main.805d61c1.css.map",
+    "main.63942b67.js.map": "/drishti-cup/static/js/main.63942b67.js.map"
   },
   "entrypoints": [
-    "static/css/main.155c8136.css",
-    "static/js/main.2e4ca114.js"
+    "static/css/main.805d61c1.css",
+    "static/js/main.63942b67.js"
   ]
 }
