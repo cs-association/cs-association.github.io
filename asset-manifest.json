@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f63efb73.css",
-    "main.js": "/static/js/main.3c1e8890.js",
+    "main.css": "/static/css/main.1f0b0e70.css",
+    "main.js": "/static/js/main.094255ed.js",
     "static/media/bg.svg": "/static/media/bg.c3fe16fa97e1e065abcfa4e54e94a66d.svg",
     "static/media/low_code.png": "/static/media/low_code.dc84f5bb49057e02608e.png",
     "static/media/gowri_ram.png": "/static/media/gowri_ram.bee946d04a77b6f14455.png",
+    "static/media/gaming_arcade.jpg": "/static/media/gaming_arcade.c88807357cf1d91a2598.jpg",
+    "static/media/Ground_Floor_Final.png": "/static/media/Ground_Floor_Final.b2ca989970d57159e975.png",
     "static/media/litmus.svg": "/static/media/litmus.b4a761f03d7fd66b24d12edbe9bbf996.svg",
     "static/media/typing_ninja.jpeg": "/static/media/typing_ninja.7c51e42aa669a0eca3e3.jpeg",
+    "static/media/Map.png": "/static/media/Map.0da1b83541f29a2d07c0.png",
     "static/media/casino_room.jpeg": "/static/media/casino_room.5194d7b54fb741a4c2bd.jpeg",
+    "static/media/make_a_reel.jpeg": "/static/media/make_a_reel.95fc27888dda12a8eeca.jpeg",
     "static/media/web_designing.jpeg": "/static/media/web_designing.fae2c1b1cfed3bdb26d7.jpeg",
     "static/media/blind_coding.jpeg": "/static/media/blind_coding.47ca25cf654f39c1266c.jpeg",
     "static/media/cascade_coding.jpeg": "/static/media/cascade_coding.b4f36ca1cd232ddb06d1.jpeg",
@@ -20,7 +24,6 @@
     "static/media/edgradi.svg": "/static/media/edgradi.2635f2ca0b858dad1156e1aafa988a06.svg",
     "static/media/drishti-logo.svg": "/static/media/drishti-logo.0d4f7b6093845919ba084bb8761138a3.svg",
     "static/media/entri.svg": "/static/media/entri.f4315e2c4d2bf939f979c07d687dc353.svg",
-    "static/media/Map.png": "/static/media/Map.b36a4bc9aaba5e533fd1.png",
     "static/media/Friza.otf": "/static/media/Friza.d04c9fe34c13f169936a.otf",
     "static/media/Friza-Bold.otf": "/static/media/Friza-Bold.e056536719babd995470.otf",
     "static/media/cs.svg": "/static/media/cs.b6b7d9982e513efc4b9a172829fd006d.svg",
@@ -39,11 +42,11 @@
     "static/media/arrow_left.svg": "/static/media/arrow_left.bfc5e16de94d437d2cdd28249e094d27.svg",
     "static/media/Facebook.svg": "/static/media/Facebook.b723e53d282508a42bec7af7c6f44834.svg",
     "static/media/arrow_right.svg": "/static/media/arrow_right.8531760f1bd671250b8cc79f5281f5c1.svg",
-    "main.f63efb73.css.map": "/static/css/main.f63efb73.css.map",
-    "main.3c1e8890.js.map": "/static/js/main.3c1e8890.js.map"
+    "main.1f0b0e70.css.map": "/static/css/main.1f0b0e70.css.map",
+    "main.094255ed.js.map": "/static/js/main.094255ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.f63efb73.css",
-    "static/js/main.3c1e8890.js"
+    "static/css/main.1f0b0e70.css",
+    "static/js/main.094255ed.js"
   ]
 }
