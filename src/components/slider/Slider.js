@@ -9,16 +9,15 @@ import blind_coding from '../../images/blind_coding.jpeg'
 import bug_smash from '../../images/bug_smash.jpeg'
 import codejam from '../../images/codejam.jpeg'
 import guess_the_word_combined from '../../images/guess_the_word_combined.jpeg'
-import make_a_reel from '../../images/make_a_reel.jpeg'
+// import make_a_reel from '../../images/make_a_reel.jpeg'
 import tower_of_hanoi from '../../images/tower_of_hanoi.jpeg'
 import typing_ninja from '../../images/typing_ninja.jpeg'
 import web_designing from '../../images/web_designing.jpeg'
 import whats_in_the_box from '../../images/whats_in_the_box.jpeg'
-import white from '../../images/white.png'
+// import white from '../../images/white.png'
 import arrow_left from "../../icons/arrow_left.svg";
 import arrow_right from "../../icons/arrow_right.svg";
 import gowri_ram from "../../images/gowri_ram.png";
-import space_robotics from "../../images/space_robotics.png";
 import low_code from "../../images/low_code.png";
 
 
@@ -85,51 +84,20 @@ export default class SimpleSlider extends Component {
         <img src={props.imgUrl}
           alt={props.alt || 'Image'} />
 
-          {/* <img
-      src={props.imgUrl}
-          onClick={this.handleShowDialog}
-          alt={props.alt || 'Image'}
-        />
-        {this.state.isOpen && (
-          <dialog
-            className="dialog"
-            
-            open
-            onClick={this.handleShowDialog}
-          >
-            <img
-              className="image"
-              src={props.imgUrl}
-              onClick={this.handleShowDialog}
-              alt="err"
-            />
-          </dialog>)} */}
       </div>
     );
 
-    const CardContainer = (props) => (
-      <div className="poster-cards-container">
-        {
-          props.cards.map((card) => (
-            <Card title={card.title}
-              imgUrl={card.imgUrl} />
-          ))
-        }
-      </div>
-    );
+    // const CardContainer = (props) => (
+    //   <div className="poster-cards-container">
+    //     {
+    //       props.cards.map((card) => (
+    //         <Card title={card.title}
+    //           imgUrl={card.imgUrl} />
+    //       ))
+    //     }
+    //   </div>
+    // );
 
-    const cardsData = [
-      { id: 1, title: 'CARD 1', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 2, title: 'CARD 2', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 3, title: 'CARD 3', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 4, title: 'CARD 4', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 5, title: 'CARD 5', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 6, title: 'CARD 6', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 7, title: 'CARD 7', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 8, title: 'CARD 8', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 9, title: 'CARD 9', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-      { id: 10, title: 'CARD 10', imgUrl: 'https://wallpaperset.com/w/full/0/6/0/471702.jpg' },
-    ]
     return (
       <div className="poster-container">
         <Slider ref={c => (this.slider = c)} {...settings}>
@@ -146,15 +114,9 @@ export default class SimpleSlider extends Component {
             <Card imgUrl={low_code}/>
             </div>
           <div key={5}>
-            <Card imgUrl={make_a_reel}/>
-          </div>
-          <div key={6}>
             <Card imgUrl={whats_in_the_box}/>
           </div>
-          <div key={7}>
-            <Card imgUrl={space_robotics}/>
-          </div>
-          <div key={8}>
+          <div key={6}>
             <Card imgUrl={casino_room}/>
           </div>
           
