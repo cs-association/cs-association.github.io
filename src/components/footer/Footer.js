@@ -11,6 +11,7 @@ import Instagram_active from '../../icons/Instagram_active.svg';
 import LinkedIn from '../../icons/LinkedIn.svg';
 import LinkedIn_active from '../../icons/LinkedIn_active.svg';
 import Map from '../../images/Map.png';
+import Ground_Floor_Final from '../../images/Ground_Floor_Final.png';
 
 class Hover extends React.Component {
   constructor() {
@@ -55,8 +56,8 @@ const Footer = () => {
               <li className="contacts">&emsp;Nadeem&ensp; +91&nbsp; 9895418183</li>
             </div>
             <div className="map-wrapper">
-              <a href="https://images.shiksha.com/mediadata/images/listingGoogle/listingLocationlive54272.jpg" target='_blank' rel="noreferrer" className="map-link">
-                <img src={Map} alt="Map" className="map" />
+              <a href="https://raw.githubusercontent.com/cs-association/images/main/Map.jpg" target='_blank' rel="noreferrer" className="map-link">
+                <img src={Ground_Floor_Final} alt="Map" className="map" />
               </a>
             </div>
           </div>

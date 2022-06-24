@@ -4,15 +4,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import casino_room from '../../images/casino_room.jpeg';
-import cascade_coding from '../../images/cascade_coding.jpeg'
-import blind_coding from '../../images/blind_coding.jpeg'
-import bug_smash from '../../images/bug_smash.jpeg'
-import codejam from '../../images/codejam.jpeg'
+
 import guess_the_word_combined from '../../images/guess_the_word_combined.jpeg'
-// import make_a_reel from '../../images/make_a_reel.jpeg'
+import make_a_reel from '../../images/make_a_reel.jpeg'
 import tower_of_hanoi from '../../images/tower_of_hanoi.jpeg'
-import typing_ninja from '../../images/typing_ninja.jpeg'
-import web_designing from '../../images/web_designing.jpeg'
 import whats_in_the_box from '../../images/whats_in_the_box.jpeg'
 // import white from '../../images/white.png'
 import arrow_left from "../../icons/arrow_left.svg";
@@ -118,6 +113,9 @@ export default class SimpleSlider extends Component {
           </div>
           <div key={6}>
             <Card imgUrl={casino_room}/>
+          </div>
+          <div key={7}>
+            <Card imgUrl={make_a_reel}/>
           </div>
           
         </Slider>
