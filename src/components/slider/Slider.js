@@ -1,19 +1,22 @@
 import React, { Component } from "react";
 import "./slider.css";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import casino_room from '../../images/casino_room.jpeg';
 
+import casino_room from '../../images/casino_room.jpeg';
 import guess_the_word_combined from '../../images/guess_the_word_combined.jpeg'
 import make_a_reel from '../../images/make_a_reel.jpeg'
 import tower_of_hanoi from '../../images/tower_of_hanoi.jpeg'
 import whats_in_the_box from '../../images/whats_in_the_box.jpeg'
-// import white from '../../images/white.png'
+// import white from '../../images/white.png';
+import lazer_tag from "../../images/lazer_tag.png"
+import Darts from "../../images/Darts.jpg"
+import Dark_room from "../../images/Dark_Room.jpg"
+
 import arrow_left from "../../icons/arrow_left.svg";
-import arrow_right from "../../icons/arrow_right.svg";
-import gowri_ram from "../../images/gowri_ram.png";
-import low_code from "../../images/low_code.png";
+import arrow_right from "../../icons/arrow_right.svg"
 
 
 export default class SimpleSlider extends Component {
@@ -100,13 +103,13 @@ export default class SimpleSlider extends Component {
             <Card imgUrl={guess_the_word_combined}/>
             </div>
           <div key={2}>
-            <Card imgUrl={gowri_ram}/>
+            <Card imgUrl={Dark_room}/>
             </div>
           <div key={3}>
             <Card imgUrl={tower_of_hanoi}/>
             </div>
           <div key={4}>
-            <Card imgUrl={low_code}/>
+            <Card imgUrl={Darts}/>
             </div>
           <div key={5}>
             <Card imgUrl={whats_in_the_box}/>
@@ -116,6 +119,9 @@ export default class SimpleSlider extends Component {
           </div>
           <div key={7}>
             <Card imgUrl={make_a_reel}/>
+          </div>
+          <div key={8}>
+            <Card imgUrl={lazer_tag}/>
           </div>
           
         </Slider>
