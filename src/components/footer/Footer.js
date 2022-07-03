@@ -27,7 +27,7 @@ const Footer = () => {
               <li className="contacts">&emsp;Nadeem&ensp; +91&nbsp; 9895418183</li>
             </div>
             <div className="map-wrapper">
-              <a href="https://raw.githubusercontent.com/cs-association/images/main/Map.jpg" target='_blank' rel="noreferrer" className="map-link">
+              <a href="https://raw.githubusercontent.com/Anirudh-A-V/cs-association.github.io/main/src/images/Map.jpg" target='_blank' rel="noreferrer" className="map-link">
                 <img src={Ground_Floor_Final} alt="Map" className="map" />
               </a>
             </div>
