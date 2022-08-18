@@ -7,6 +7,12 @@ The tracker is capable of adding scores of the listed games using an API. \
 Link for adding scores is given in the description of the repo.\
 The scores can be viewed by anyone real-time. MongoDB is used as the database for this project.\
 
+## After Forking the project 
+
+Create an unnamed file '.env' and type the following into it
+'REACT_APP_API_URI=https://game-track-api.herokuapp.com'
+
+This is to access to the API
 
 # Getting Started with Create React App
 
