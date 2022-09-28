@@ -53,7 +53,7 @@
 .map {
     height: auto;
     width: 330px;
-    clip-path: polygon(58% 0, 99% 23%, 100% 100%, 0 100%, 0 0);
+    /* clip-path: polygon(58% 0, 99% 23%, 100% 100%, 0 100%, 0 0); */
 }
 
 
@@ -114,7 +114,7 @@
     .map {
         height: auto;
         width: 250px;
-        clip-path: polygon(58% 0, 99% 23%, 100% 100%, 0 100%, 0 0);
+        /* clip-path: polygon(58% 0, 99% 23%, 100% 100%, 0 100%, 0 0); */
         margin-top: 30px;
     }
 
